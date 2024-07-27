@@ -1,0 +1,16 @@
+body.darkmode {
+    background-color: #000;
+    color: #fff;
+}
+
+.dark-mode-icon {
+    transition: .3s ease;
+}
+
+.dark-mode-icon:hover {
+    transform: scale(1.2);
+}
+
+.dark-mode-icon.dark {
+    color: #fff;
+}

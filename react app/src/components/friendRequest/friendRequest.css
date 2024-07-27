@@ -1,0 +1,23 @@
+.request{
+    background: var(--color-card);
+    margin-top: 1rem;
+    margin-left: -2px;
+    padding: 24px;
+    border-radius: 1rem;
+    display: flex;
+      box-sizing: content-box;
+    width: 73%;
+    
+    flex-direction: column;
+}
+
+.request h5{
+    font-size: .91rem;
+    
+}
+.request .action{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 19px;
+}

@@ -1,0 +1,83 @@
+.signup{
+background: linear-gradient(to right, #fbc49a, #ec7fa9, #af89d6, #96a1eb);
+
+
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup .card{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 580px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    backdrop-filter: blur(10px); 
+    border: 1px solid white;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.signup .card .left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+.signup h2{
+   color: #FF4081;
+}
+.signup .card p{
+    font-size: .9rem;
+}
+.signup .card span{
+ color: #FF4081;
+
+}
+
+
+.signup .card .right{
+    flex: 1;
+    background:   #fad7f6;
+;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.signup form input{
+    padding:  1rem 0;
+    width: 90%;
+    background: transparent;
+    border: transparent;
+    outline: none;
+    border-bottom: 1px solid white;
+    margin: 0 auto;
+    color: white;
+
+}
+.signup form input::placeholder{
+    color: #FF4081;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+.signup form .btn{
+     background-color:  #FF4081;
+    color: white;
+
+    margin-top: 1.2rem ;
+}
+@media (max-width: 600px){
+    .signup .card{
+        width: 90%;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        
+    }
+    .signup .card .right{
+    padding: 20px 0;
+    }
+}
